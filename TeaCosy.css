@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  color: seashell;
+  background-color: black;
+  margin: 0;
+  border: 0;
+  opacity: 0.9;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 22px;
+}
+
+#logo {
+  text-align: left;
+  margin: 10px;
+  height: 50px;
+}
+
+.banner {
+  height: auto;
+  width: 100%;
+  border: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  opacity: 1;
+}
+
+.menu {
+  text-decoration: underline;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.menu p {
+  margin: 10px;
+}
+
+.mission {
+  text-align: center;
+  height: 770px;
+  width: 100%;
+  border: 50px;
+  overflow: hidden;
+}
+
+.mission img {
+  position: relative;
+  top: 70px;
+}
+
+.mission h2,
+.mission h4 {
+  opacity: 1;
+  padding: 10px;
+  position: relative;
+  bottom: 55%;
+}
+
+.middle h2,
+.middle h4 {
+  text-align: center;
+  margin: 1em;
+}
+
+.middle {
+  width: 1000px;
+  text-align: center;
+  margin: 70px auto;
+}
+
+.tea-month {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.tea-month img {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+
+.tea {
+  margin: 10px;
+}
+
+.tea p {
+  margin: 10px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  overflow: hidden;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  background-color: unset;
+  justify-content: center;
+  position: absolute;
+  top: 1670px;
+}
+
+.places {
+  display: flex;
+  flex-direction: row;
+  background-color: unset;
+  opacity: 1;
+}
+
+.places section {
+  height: auto;
+  width: 300px;
+  margin: 20px;
+  padding: 0px;
+  text-align: center;
+  opacity: 1;
+}
+
+.location h2 {
+  background-color: unset;
+  width: auto;
+  text-align: center;
+}
+
+section p {
+  margin: 10px;
+}
+
+section h3 {
+  margin: 20px;
+}
+
+.image img {
+  position: relative;
+  top: 100px;
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.contact h5,
+.contact h2 {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  margin: 20px;
+  font-weight: bold;
+}
